@@ -1,0 +1,23 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "htmlhint": "npx htmlhint \"**/*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitrovic-Milan/quiz-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitrovic-Milan/quiz-app/issues"
+  },
+  "homepage": "https://github.com/Mitrovic-Milan/quiz-app#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
