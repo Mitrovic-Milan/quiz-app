@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "htmlhint": "npx htmlhint \"**/*.html\""
+    "htmlhint": "npx htmlhint \"**/*.html\"",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "eslint": "npx eslint \"**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,12 @@
   },
   "homepage": "https://github.com/Mitrovic-Milan/quiz-app#readme",
   "devDependencies": {
-    "htmlhint": "^1.1.4"
+    "eslint": "^8.15.0",
+    "htmlhint": "^1.1.4",
+    "husky": "^8.0.1",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
   }
 }
