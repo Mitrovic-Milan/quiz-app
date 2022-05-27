@@ -1,7 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 0;
+  justify-content: space-between;
   background-color: #0c740c;
-  line-height: 1rem;
+  text-align: center;
   padding: 1rem;
+  width: 100;
 }
 
 .home__bookmark {
@@ -17,10 +34,13 @@ header {
 
 .home__card {
   border: 4px solid black;
+  border-radius: 3%;
   justify-content: center;
   text-align: center;
   margin: 3rem;
   line-height: 3rem;
+  padding: 20px;
+  box-shadow: 5px 3px 2px #dfdddd;
 }
 
 .home__tage {
@@ -31,7 +51,29 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  bottom: 0;
+  justify-content: space-between;
   background-color: #0c740c;
-  padding: 1.6rem;
+  padding: 1rem;
+  width: 100vw;
+}
+
+a:link,
+a:visited {
+  display: flex;
+  font-weight: bold;
+  color: black;
+  background-color: #0c740c;
+  width: 120px;
+  text-align: center;
+  padding: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: #dfdddd;
 }
